@@ -3,11 +3,11 @@ import os
 from typing import Any, Dict, List, Union
 from glob import glob
 from jepthon import *
-from jepthon.helpers.functions.functions import translate
-try:
+من   الخليفه . مساعدين . وظائف . وظائف   استيراد   تترجم
+جرب :
     from yaml import safe_load
 except ModuleNotFoundError:
-    from jepthon.helpers.functions.functions import safe_load
+    من  الخليفه . مساعدين . وظائف . وظائف  الاستيراد  safe_load
 
 os.getenv("LANGUAGE", "ar")
 
