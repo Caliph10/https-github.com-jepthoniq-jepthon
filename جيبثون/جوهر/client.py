@@ -292,14 +292,14 @@ class JokerClient(TelegramClient):
         self.running_processes.clear()
 
 
-JokerClient.fast_download_file = download_file
-JokerClient.fast_upload_file = upload_file
-JokerClient.reload = restart_script
-JokerClient.get_msg_link = get_message_link
-JokerClient.check_testcases = checking
+الخليفه العميل . fast_download_file  =  download_file
+الخليفه  العميل . fast_upload_file   =   upload_file
+الخليفه  العميل . إعادة  تحميل   =  إعادة   تشغيل_سكريبت
+الخليفه العميل . get_msg_link  =  get_message_link
+الخليفه العميل . check_testcases  =  تدقيق
 try:
     send_message_check = TelegramClient.send_message
 except AttributeError:
-    JokerClient.send_message = send_message
-    JokerClient.send_file = send_file
-    JokerClient.edit_message = edit_message
+    الخليفه العميل . send_message  =  send_message
+    الخليفه العميل . send_file  =  send_file
+    الخليفه العميل . edit_message  =  edit_message
